@@ -1,6 +1,6 @@
 <header>
     <a href="index.php" title="На главную" id="logo">Shop</a>
-    <span class="contact"><a href="about.html" title="Информация о нас">О нас</a></span>
+    <span class="contact"><a href="about.php" title="Информация о нас">О нас</a></span>
     <input type="text" class="field" placeholder="Давай помогу найти"/>
     <span class="right">
         <span class="contact"><a href="auth.php" title="Войти">Вход</a></span>
