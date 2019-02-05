@@ -175,6 +175,19 @@ input[type=text].field:focus{
     background-color: aquamarine;
     color: #005519;
 }
+/*Центральный блок нашего сайта*/
+#main_soc_block{
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: 2px solid silver;
+    border-top: 2px solid silver;
+    margin: 20px 0;
+    
+}
+#main_soc_block_in{
+    border: 1px;
+}
+
 /*Про нас*/
 #wrapper #articles #about{
     width: 70%;

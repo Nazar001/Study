@@ -29,11 +29,16 @@
                         <a href="/article" title="Посмотреть сатью">Читать далее</a>
                     </article>
                 </div>
+                <div id="main_soc_block">
+                    <div id="main_soc_block_in">
+                    
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <?php
-           include("include/footer.php"); 
-        ?>
+        include("include/footer.php"); 
+    ?>
 </body>
 </html>
