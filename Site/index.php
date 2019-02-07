@@ -20,24 +20,24 @@
                     <img src="img/img_1.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_2.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_3.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
             </div>
             <div id="main_soc_block">
                 <div id="main_soc_block_in">
-                    <p>Регистрируйтесь у нас на сайте!</p>
+                    <p class="first">Регистрируйтесь у нас на сайте!</p>
                     <p>У нас вы найдете много картинок о природе!!!</p>
                     <a href="reg.php">Регистрация</a>
                 </div>
@@ -47,19 +47,19 @@
                     <img src="img/img_1.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_2.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_3.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
             </div>
             <div id="articles">
@@ -67,19 +67,19 @@
                     <img src="img/img_1.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_2.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_3.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
             </div>
             <div id="articles">
@@ -87,19 +87,19 @@
                     <img src="img/img_1.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_2.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
                 <article>
                     <img src="img/img_3.jpg" alt="Изображения" title="Изображения">
                     <h2>Заголовок</h2>
                     <p>Здесь должен быть какой-то текст!!!</p>
-                    <a href="/article" title="Посмотреть сатью">Читать далее</a>
+                    <a href="article.php" title="Посмотреть сатью">Читать далее</a>
                 </article>
             </div>
         </div>
