@@ -244,6 +244,8 @@ input[type=text].field:focus{
 #wrapper #articles #about{
     width: 70%;
     display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: left;
     background-color: rgb(187, 187, 187);
     border-radius: 8px;
@@ -255,6 +257,79 @@ input[type=text].field:focus{
     position: relative;
     bottom: 450px;
 
+}
+/*Для странички обратная связь*/
+/*Для форми*/
+#Answer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Answer h2{
+    position: relative;
+    top: -15px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+#GoMessege{
+    width: 30%;
+    
+    margin-left: 35%;
+    display: flex;
+    padding: 5px;
+    margin-top: 15px;
+    justify-content: center;
+}
+#GoMessege a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #d8d8d8;
+}
+#GoMessege a:hover{
+    background-color: rgb(152, 153, 153);
+    color: white;
+}
+form {
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+form label{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+form input{
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+form input:focus{
+    border: 2px solid purple;
+}
+form textarea{
+    margin-left: 40px;
+    border-radius: 6px;
+    padding: 5px;
+    height: 150px;
+    width: 80%;
+    border: 2px solid silver;
+}
+form textarea:focus{
+    border: 2px solid gold;
+}
+#Mess label{
+    margin-left: 40px;
 }
 /*Футер*/
 footer{

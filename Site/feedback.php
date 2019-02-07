@@ -13,7 +13,31 @@
     <div id="page-wrap">
         <?php
             include("include/header.php"); 
-            ?>
+        ?>
+        <div id="wrapper">
+            <div id="articles">
+                <div id="Answer">
+                        <h2>Отправка сообщение в службу поддержки</h2>
+                    <form action="" method="posbjectt">
+                        <div id="input">
+                            <label for="subject">Тема сообщения</label>
+                            <input type="text" name="subject" id="subject" placeholder="Тема сообщения"/>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="adress@example.com"/>
+                            <label for="name">Ваше имя</label>
+                            <input type="text" name="name" id="name" placeholder="Введите ваше имя"/>
+                        </div>
+                        <div id="Mess">
+                            <label for="Messege">Введите ваше сообщения</label>
+                            <textarea  name="Messege" id="Messege" placeholder="Введите ваше сообщеня"></textarea>
+                        </div>
+                    </form>
+                    <div id="GoMessege">
+                        <a href="">Отправить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <?php
         include("include/footer.php"); 
