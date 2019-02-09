@@ -6,6 +6,7 @@
     <meta name="keywords" content="test, site, website"/>
     <meta name="discription" content="Этот сайт является пробным сайтом"/>
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
     <link href="img/icon.png" rel="shortcut icon" type="image/x-icon"/>
     <title>Shop</title>
 </head>

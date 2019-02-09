@@ -61,8 +61,13 @@ hr{
 header, footer{
     width: 98%;
     background-color: white;
-    min-height: 10px;
+    /* min-height: 10px; */
     display: flex;
+}
+@media(max-width: 321px){
+    header{
+        height: 400px;;
+    }
 }
 header{
     flex-direction: row;
@@ -78,6 +83,7 @@ header{
     display: flex;
 }
 #logo{
+    display: flex;
     font-size: 2em;
     font-family: Comic Sans MS, sans-serif;
     color: silver;
@@ -93,7 +99,6 @@ header{
 }
 .left{
     display: flex; 
-    justify-content: left;
     color: black;
 }
 .clear {clear: both;}
@@ -106,6 +111,9 @@ input[type=text].field{
 input[type=text].field:focus{
     border: 2px solid purple;
 }
+
+
+
 /*Меню*/
 #menu{
     color: red;
@@ -150,6 +158,7 @@ input[type=text].field:focus{
 #wrapper #articles article{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 31.33333%;
     border: 1px solid silver;
     box-sizing: border-box;
@@ -183,7 +192,7 @@ input[type=text].field:focus{
     padding: 5px 3px;
     background-color: #006eff;
     color: black;
-    margin-left: 5%;
+    margin: auto;
     display: flex;
     width: 100px;
     border-radius: 5px;
@@ -191,7 +200,7 @@ input[type=text].field:focus{
 }
 #wrapper #articles article a:hover{
     background-color: aquamarine;
-    color: #3cff00;
+    color: #3b004d;
 }
 /*Центральный блок нашего сайта*/
 #main_soc_block{
@@ -227,7 +236,7 @@ input[type=text].field:focus{
     align-items: center;
     width: 100px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     margin: auto;
     border: none;
@@ -241,7 +250,14 @@ input[type=text].field:focus{
     -ms-transition: all.6s ease;
 }
 /*Про нас*/
-#wrapper #articles #about{
+#wrapper1{
+    width: 100%;
+}
+articles1{
+    position: relative;
+    
+}
+#about{
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -254,8 +270,6 @@ input[type=text].field:focus{
     color: black;
     padding: 1%;
     margin-left: 15%;
-    position: relative;
-    bottom: 450px;
 }
 #wrapper #article_main_block{
     display: flex;

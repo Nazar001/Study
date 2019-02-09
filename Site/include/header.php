@@ -17,8 +17,8 @@
         <div id="menuHrefs">
             <a href="about.php">О нас</a>
             <a href="feedback.php">Обратная связь</a>
-            <a href="auth.php">Вход</a>
-            <a href="reg.php">Регистрация</a>
+            <a class="non" href="auth.php">Вход</a>
+            <a class="non"href="reg.php">Регистрация</a>
         </div>
     </center>
 </div>
