@@ -1,5 +1,5 @@
-/*Для 4d*/
-@media(max-width: 360px){
+/*Дo 320px*/
+@media screen and (max-width: 320px){
     /*Шапка*/
     /*Блок шапки*/
     header{
@@ -105,8 +105,9 @@
     }
     /*Картинка в статье*/
     #article_blocks p img{
-        max-width: 226px;
+        max-width: 220px;
         border-radius: 0;
+        margin-left: 7px;
         float: none;
     }
     /*Текст в статье*/
@@ -166,5 +167,552 @@
         position: relative;
         bottom: -15px;
         margin-left: 10px;
+    }
+}
+@media screen and (min-width: 321px)and (max-width: 360px){
+   /*Шапка*/
+    /*Блок шапки*/
+    header{
+        height: 60px;
+     }
+     /*Лого*/
+     #logo{
+         position: relative;
+         top: 7px;
+     }
+     /*О нас, Вход, Регистрация*/ 
+     .contact{
+         font-size: 1.2em;
+         
+     }
+     /*Поиск*/
+     .field{
+         margin: 0px;
+         padding: 3px;
+         padding: 0 2px 0 2px;
+         width: 140px;
+         height: 15px;
+         position: relative;
+         top: -35px;
+         left: 80px;
+     }
+     /*Блок с Логом, О нас, Поиском*/
+     #left{
+         flex-direction: column;
+     }
+     /*Блок о нас*/
+     #left .contact{
+         position: relative;
+         bottom: -22px;
+         left: -15px;
+     }
+     /*Блок с вход, регистрацией*/
+     #right{
+         position: relative;
+         bottom: -18px;
+         left: -110px;
+     }
+ 
+     /*Меню*/
+     .non{
+         display: none;
+     }
+ 
+     /*Основной блок*/
+     /*Блок с статьями*/
+     #wrapper #articles{
+         flex-direction: column;
+     }
+     /*Статьи*/
+     #wrapper #articles article{
+         width: 100%;
+         margin-right: 2%;
+         margin-bottom: 5px;
+     }
+     /*Картинки в статьях*/
+     #wrapper #articles article img{
+         height: 130px;
+     }
+     /*Заголовок в статьях*/
+     #wrapper #articles article h2{
+         font-size: 1.3em;
+     }
+     /*Текст в статьях*/
+     #wrapper #articles article p{
+         text-indent: 0.6em;
+     }
+     /*Кнопка "Читать дальше"*/
+     #wrapper #articles article a{
+         padding: 5px 3px;
+         background-color: #006eff;
+         color: black;
+         margin-left: 5%;
+         display: flex;
+         width: 100px;
+         border-radius: 5px;
+         margin-top: 10px;
+     }
+ 
+     /*Центральний блок*/
+     /*Центральный блок сайта*/
+     #main_soc_block_in{
+         width: 80%;
+     }
+     /*Заголовокв центральном блоке*/
+     #main_soc_block_in a{
+         margin-top: 5px;
+     }
+ 
+     /*Старница со статья*/
+     /*Заголовок статьи*/
+     #article_main_block h2{
+         font-size: 1.2em;
+     }
+     /*Блок с статьей*/
+     #article_blocks{
+         width: 100%;
+         margin-left: 0%;
+     }
+     /*Картинка в статье*/
+     #article_blocks p img{
+         max-width: 240px;
+         height: auto;
+         border-radius: 0;
+         margin-left: 10px;
+         float: none;
+     }
+     /*Текст в статье*/
+     #article_blocks p{
+         text-indent: 0px;
+         font-size: 0.7em;
+     }
+ 
+     /*О нас*/
+     /*Блок с текстом*/
+     #wrapper #articles #about{
+         width: 100%;
+         margin-left: 0%;
+     }
+     /*Заголовок в блоке с текстом*/
+     #wrapper #articles #about h3{
+         font-size: 0.7em;
+     }
+     /*Текст*/
+     #wrapper #articles #about p{
+         font-size: 0.6em;
+     }
+     /*Кнопка */
+     #GoMessege a{
+         width: 200%;
+     }
+ 
+     /*Регестрация, вход, отправить*/
+     /*Форма отправки*/
+     #Answer h2{
+         font-size: 0.9em;
+     }
+     /*Форма Вход, Регестрация, ТП*/
+     form {
+         flex-direction: column;
+     }
+     /*Поле с текстом*/
+     form textarea{
+         margin-left: 0px;
+         width: 100%;
+     }
+     /*Название заголовка*/
+     #Mess label{
+         margin-left: 20px;
+         font-size: 0.8em;
+     }
+ 
+     /*Футер*/
+     footer{
+         flex-direction: column-reverse;
+         min-height: 35px;
+         align-items: center;
+     }
+     /*Кнопки с соц. сетями*/
+     .social{ 
+         margin-right: 0px;
+         position: relative;
+         bottom: -15px;
+         margin-left: 10px;
+     }
+}
+@media screen and (min-width: 361px)and (max-width: 375px){
+    /*Шапка*/
+     /*Блок шапки*/
+     header{
+         height: 60px;
+      }
+      /*Лого*/
+      #logo{
+          position: relative;
+          top: 7px;
+      }
+      /*О нас, Вход, Регистрация*/ 
+      .contact{
+          font-size: 1.2em;
+          
+      }
+      /*Поиск*/
+      .field{
+          margin: 0px;
+          padding: 3px;
+          padding: 0 2px 0 2px;
+          width: 140px;
+          height: 15px;
+          position: relative;
+          top: -35px;
+          left: 150px;
+      }
+      /*Блок с Логом, О нас, Поиском*/
+      #left{
+          flex-direction: column;
+      }
+      /*Блок о нас*/
+      #left .contact{
+          position: relative;
+          bottom: -22px;
+          left: -15px;
+      }
+      /*Блок с вход, регистрацией*/
+      #right{
+          position: relative;
+          bottom: -18px;
+          left: -40px;
+      }
+  
+      /*Меню*/
+      .non{
+          display: none;
+      }
+  
+      /*Основной блок*/
+      /*Блок с статьями*/
+      #wrapper #articles{
+          flex-direction: column;
+      }
+      /*Статьи*/
+      #wrapper #articles article{
+          width: 100%;
+          margin-right: 2%;
+          margin-bottom: 5px;
+      }
+      /*Картинки в статьях*/
+      #wrapper #articles article img{
+          height: 150px;
+      }
+      /*Заголовок в статьях*/
+      #wrapper #articles article h2{
+          font-size: 1.3em;
+      }
+      /*Текст в статьях*/
+      #wrapper #articles article p{
+          text-indent: 0.6em;
+      }
+      /*Кнопка "Читать дальше"*/
+      #wrapper #articles article a{
+          padding: 5px 3px;
+          background-color: #006eff;
+          color: black;
+          margin-left: 5%;
+          display: flex;
+          width: 100px;
+          border-radius: 5px;
+          margin-top: 10px;
+      }
+  
+      /*Центральний блок*/
+      /*Центральный блок сайта*/
+      #main_soc_block_in{
+          width: 80%;
+      }
+      /*Заголовокв центральном блоке*/
+      #main_soc_block_in a{
+          margin-top: 5px;
+      }
+  
+      /*Старница со статья*/
+      /*Заголовок статьи*/
+      #article_main_block h2{
+          font-size: 1.2em;
+      }
+      /*Блок с статьей*/
+      #article_blocks{
+          width: 100%;
+          margin-left: 0%;
+      }
+      /*Картинка в статье*/
+      #article_blocks p img{
+          max-width: 240px;
+          height: auto;
+          border-radius: 0;
+          margin-left: 18px;
+          float: none;
+      }
+      /*Текст в статье*/
+      #article_blocks p{
+          text-indent: 0px;
+          font-size: 0.8em;
+      }
+  
+      /*О нас*/
+      /*Блок с текстом*/
+      #wrapper #articles #about{
+          width: 100%;
+          margin-left: 0%;
+      }
+      /*Заголовок в блоке с текстом*/
+      #wrapper #articles #about h3{
+          font-size: 0.9em;
+      }
+      /*Текст*/
+      #wrapper #articles #about p{
+          font-size: 0.7em;
+      }
+      /*Кнопка */
+      #GoMessege a{
+          width: 200%;
+      }
+  
+      /*Регестрация, вход, отправить*/
+      /*Форма отправки*/
+      #Answer h2{
+          font-size: 0.9em;
+      }
+      /*Форма Вход, Регестрация, ТП*/
+      form {
+          flex-direction: column;
+      }
+      /*Поле с текстом*/
+      form textarea{
+          margin-left: 0px;
+          width: 100%;
+      }
+      /*Название заголовка*/
+      #Mess label{
+          margin-left: 20px;
+          font-size: 0.8em;
+      }
+  
+      /*Футер*/
+      footer{
+          flex-direction: column-reverse;
+          min-height: 35px;
+          align-items: center;
+      }
+      /*Кнопки с соц. сетями*/
+      .social{ 
+          margin-right: 0px;
+          position: relative;
+          bottom: -15px;
+          margin-left: 10px;
+      }
+}
+ @media screen and (min-width: 376px)and (max-width: 414px){
+    /*Шапка*/
+     /*Блок шапки*/
+     header{
+         height: 60px;
+      }
+      /*Лого*/
+      #logo{
+          position: relative;
+          top: 7px;
+      }
+      /*О нас, Вход, Регистрация*/ 
+      .contact{
+          font-size: 1.2em;
+          
+      }
+      /*Поиск*/
+      .field{
+          margin: 0px;
+          padding: 3px;
+          padding: 0 2px 0 2px;
+          width: 140px;
+          height: 15px;
+          position: relative;
+          top: -35px;
+          left: 200px;
+      }
+      /*Блок с Логом, О нас, Поиском*/
+      #left{
+          flex-direction: column;
+      }
+      /*Блок о нас*/
+      #left .contact{
+          position: relative;
+          bottom: -22px;
+          left: -15px;
+      }
+      /*Блок с вход, регистрацией*/
+      #right{
+          position: relative;
+          bottom: -18px;
+          left: -10px;
+      }
+  
+      /*Основной блок*/
+      /*Блок с статьями*/
+      #wrapper #articles{
+          flex-direction: column;
+      }
+      /*Статьи*/
+      #wrapper #articles article{
+          width: 100%;
+          margin-right: 2%;
+          margin-bottom: 5px;
+      }
+      /*Картинки в статьях*/
+      #wrapper #articles article img{
+          height: 180px;
+      }
+      /*Заголовок в статьях*/
+      #wrapper #articles article h2{
+          font-size: 1.3em;
+      }
+      /*Текст в статьях*/
+      #wrapper #articles article p{
+          text-indent: 0.6em;
+      }
+      /*Кнопка "Читать дальше"*/
+      #wrapper #articles article a{
+          padding: 5px 3px;
+          background-color: #006eff;
+          color: black;
+          margin-left: 5%;
+          display: flex;
+          width: 100px;
+          border-radius: 5px;
+          margin-top: 10px;
+      }
+  
+      /*Центральний блок*/
+      /*Центральный блок сайта*/
+      #main_soc_block_in{
+          width: 80%;
+      }
+      /*Заголовокв центральном блоке*/
+      #main_soc_block_in a{
+          margin-top: 5px;
+      }
+  
+      /*Старница со статья*/
+      /*Заголовок статьи*/
+      #article_main_block h2{
+          font-size: 1.2em;
+      }
+      /*Блок с статьей*/
+      #article_blocks{
+          width: 100%;
+          margin-left: 0%;
+      }
+      /*Картинка в статье*/
+      #article_blocks p img{
+          max-width: 324px;
+          height: auto;
+          border-radius: 0;
+          margin-left: 20px;
+          float: none;
+      }
+      /*Текст в статье*/
+      #article_blocks p{
+          text-indent: 0px;
+          font-size: 0.8em;
+      }
+  
+      /*О нас*/
+      /*Блок с текстом*/
+      #wrapper #articles #about{
+          width: 100%;
+          margin-left: 0%;
+      }
+      /*Заголовок в блоке с текстом*/
+      #wrapper #articles #about h3{
+          font-size: 0.9em;
+      }
+      /*Текст*/
+      #wrapper #articles #about p{
+          font-size: 0.7em;
+      }
+      /*Кнопка */
+      #GoMessege a{
+          width: 200%;
+      }
+  
+      /*Регестрация, вход, отправить*/
+      /*Форма отправки*/
+      #Answer h2{
+          font-size: 0.9em;
+      }
+      /*Форма Вход, Регестрация, ТП*/
+      form {
+          flex-direction: column;
+      }
+      /*Поле с текстом*/
+      form textarea{
+          margin-left: 0px;
+          width: 100%;
+      }
+      /*Название заголовка*/
+      #Mess label{
+          margin-left: 20px;
+          font-size: 0.8em;
+      }
+  
+      /*Футер*/
+      footer{
+          flex-direction: column-reverse;
+          min-height: 35px;
+          align-items: center;
+      }
+      /*Кнопки с соц. сетями*/
+      .social{ 
+          margin-right: 0px;
+          position: relative;
+          bottom: -15px;
+          margin-left: 10px;
+      }
+}
+@media screen and (min-width: 800px)and (max-width: 960px){
+   /*Блок с статьями*/
+   /*Картинки в статьях*/
+   #wrapper #articles article img{
+       height: 140px;
+   }
+   #wrapper #articles article p{
+       font-size: 0.8em;
+   }
+   #wrapper #articles article h2{
+       font-size: 1em;
+   }
+}
+@media screen and (min-width: 961px)and (max-width: 1024px){
+   /*Блок с статьями*/
+   /*Картинки в статьях*/
+   #wrapper #articles article img{
+       height: 160px;
+   }
+   #wrapper #articles article p{
+       font-size: 0.9em;
+   }
+   #wrapper #articles article h2{
+       font-size: 1.1em;
+   }
+}
+@media screen and (min-width: 1025px)and (max-width: 1280px){
+    /*Блок с статьями*/
+    /*Картинки в статьях*/
+    #wrapper #articles article img{
+        height: 180px;
+    }
+    #wrapper #articles article p{
+        font-size: 1em;
+    }
+    #wrapper #articles article h2{
+        font-size: 1.2em;
     }
 }

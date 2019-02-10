@@ -64,11 +64,6 @@ header, footer{
     /* min-height: 10px; */
     display: flex;
 }
-@media(max-width: 321px){
-    header{
-        height: 400px;;
-    }
-}
 header{
     flex-direction: row;
     justify-content: space-between;
@@ -250,13 +245,6 @@ input[type=text].field:focus{
     -ms-transition: all.6s ease;
 }
 /*Про нас*/
-#wrapper1{
-    width: 100%;
-}
-articles1{
-    position: relative;
-    
-}
 #about{
     width: 70%;
     display: flex;
